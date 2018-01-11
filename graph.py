@@ -42,12 +42,6 @@ def draw(z):
     fig = plt.figure()
     ax = fig.gca(projection='3d')
 
-    # Make data.
-    # x = np.array([32, 32, 32, 32, 64, 64, 64, 64, 96, 96, 96, 96])
-    # y = np.array([0.1, 0.5, 1, 3, 0.1, 0.5, 1, 3, 0.1, 0.5, 1, 3])
-    # z = np.array([0.17, 0.144, 0.201, 0.389, 0.207, 0.223,
-    #               0.292, 0.356, 0.219, 0.3, 0.312, 0.405])
-
     xi = np.linspace(min(x), max(x))
     yi = np.linspace(min(y), max(y))
 
